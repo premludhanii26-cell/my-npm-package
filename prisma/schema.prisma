@@ -1,0 +1,15 @@
+// Prisma ko batana ki client generate karna hai
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Database konsa use kiya hai (jaise postgresql) 
+datasource db {
+  provider = "postgresql"
+  url = env("DATABASE_URL")   
+}
+
+// jo maine model banaya hua hai
+model User { 
+  id Int @id 
+}

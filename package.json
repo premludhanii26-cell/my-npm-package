@@ -1,0 +1,21 @@
+{
+  "name": "prisma-smart-seeder-prem",
+  "version": "1.0.0",
+  "description": "A smart CLI utility that analyzes your Prisma schema and uses AI to automatically generate highly realistic, context-aware seed data for your database.",
+  "main": "index.js",
+  "bin": {
+    "smart-seed": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^3.3.0",
+    "@prisma/client": "^5.22.0",
+    "commander": "^15.1.0",
+    "dotenv": "^18.0.10",
+    "prisma": "^5.22.0"
+  }
+}
